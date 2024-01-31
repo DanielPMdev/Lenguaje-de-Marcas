@@ -1,0 +1,188 @@
+.Campo{
+    background-image: url(../Recursos/cuanto_mide_un_campo_de_futbol_34969_orig.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+    height: 98vh;
+    width: 99vw;
+}
+.Portero {
+    /* Tus estilos para Portero aquí */
+    position: absolute;
+    left: 10%;
+    top: 38%;
+    width: 10vw;
+    height: 20vh;
+
+    background-image: url(../Recursos/Futbolistas/Lunin\ -\ Portero.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.Lateral-Derecho {
+    /* Tus estilos para Lateral-Derecho aquí */
+    position: absolute;
+    left: 27%;
+    top: 77%;
+    width: 10vw;
+    height: 20vh;
+
+    background-image: url(../Recursos/Futbolistas/Carvajal\ -\ Lateral\ Derecho.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.Central-Izquierdo {
+    /* Tus estilos para Central-Izquierdo aquí */
+    position: absolute;
+    left: 20%;
+    top: 26%;
+    width: 10vw;
+    height: 20vh;
+
+    background-image: url(../Recursos/Futbolistas/Militado\ -\ Central.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Central-Derecho {
+    /* Tus estilos para Central-Derecho aquí */
+    position: absolute;
+    left: 20%;
+    top: 52%;
+    width: 10vw;
+    height: 20vh;
+
+    background-image: url(../Recursos/Futbolistas/Rudiger\ -\ Central.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.Lateral-Izquierdo {
+    /* Tus estilos para Lateral-Derecho aquí */
+    position: absolute;
+    left: 27%;
+    top: 2%;
+    width: 10vw;
+    height: 20vh;
+
+    background-image: url(../Recursos/Futbolistas/Fran\ -\ Lateral\ Izquierdo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.Mediocentro-Defensivo {
+    /* Tus estilos para Mediocentro-Defensivo aquí */
+    position: absolute;
+    left: 33%;
+    top: 36%;
+    width: 10vw;
+    height: 20vh;
+
+    background-image: url(../Recursos/Futbolistas/Tchouameni\ -\ CentroDef.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Mediocentro-Izquierdo {
+    /* Tus estilos para Mediocentro-Izquierdo aquí */
+    position: absolute;
+    left: 40%;
+    top: 14%;
+    width: 10vw;
+    height: 20vh;
+
+    background-image: url(../Recursos/Futbolistas/Kroos\ -\ CentroI.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Mediocentro-Derecho {
+    /* Tus estilos para Mediocentro-Derecho aquí */
+    position: absolute;
+    left: 40%;
+    top: 60%;
+    width: 10vw;
+    height: 20vh;
+
+    background-image: url(../Recursos/Futbolistas/Bellingham\ -\ CentroD.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Extremo-Izquierdo {
+    /* Tus estilos para Extremo-Izquierdo aquí */
+    position: absolute;
+    left: 55%;
+    top: 6%;
+    width: 10vw;
+    height: 20vh;
+
+    background-image: url(../Recursos/Futbolistas/Vini\ -\ Extremo\ Izquierdo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Delantero {
+    /* Tus estilos para Delantero aquí */
+    position: absolute;
+    left: 55%;
+    top: 35%;
+    width: 10vw;
+    height: 20vh;
+
+    background-image: url(../Recursos/Futbolistas/Joselu\ -\ Delantero.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Extremo-Derecho {
+    /* Tus estilos para Extremo-Derecho aquí */
+    position: absolute;
+    left: 55%;
+    top: 69%;
+    width: 10vw;
+    height: 20vh;
+
+    background-image: url(../Recursos/Futbolistas/Rodrygo\ -\ Extremo\ Derecho.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+/* Define la animación */
+@keyframes aparecer {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.Portero {
+    animation: aparecer 2s ease-in-out 0s forwards; 
+    opacity: 0;
+    /* Duración Animación, aceleración y deaceleración suave,
+     no tiene retraso y mantiene el estilo al acabar la animación*/
+}
+.Lateral-Derecho, .Central-Izquierdo, .Central-Derecho, .Lateral-Izquierdo{
+    animation: aparecer 2s ease-in-out 3s forwards;
+    opacity: 0;
+}
+.Mediocentro-Defensivo, .Mediocentro-Izquierdo, .Mediocentro-Derecho{
+    animation: aparecer 2s ease-in-out 6s forwards;
+    opacity: 0;
+}
+.Extremo-Izquierdo, .Extremo-Derecho, .Delantero{
+    animation: aparecer 2s ease-in-out 9s forwards;
+    opacity: 0;
+}
+
